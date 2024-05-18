@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "b101b2f0-f097-4eb8-ad77-0793aafefed0",
+		"name": "refy - screening home test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22867529"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/v1/ai/list-models",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ai/list-models",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ai",
+						"list-models"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:11434/api/tags",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:11434/api/tags",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "11434",
+					"path": [
+						"api",
+						"tags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/ai/generate?promptMessage=who is the first president of america",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ai/generate?promptMessage=who is the first president of america",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ai",
+						"generate"
+					],
+					"query": [
+						{
+							"key": "promptMessage",
+							"value": "who is the first president of america"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/ai/select/mistral",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "jwt_token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI5MzJhOTdjZC03MzM0LTRlYzctODBjOS1lY2UwZWRmYzExOTQiLCJhdXRoIjoiUk9MRV9HVUVTVCIsImlzcyI6Imh0dHBzOi8vd3d3LmhlYWRwZW4uY29tIiwiZW1haWwiOiJpYW1ndWVzdEBoZWFkcGVuLmNvbSIsImlhdCI6MTcwNjI4MDI0NCwiZXhwIjoxNzM3ODE2MjQ0fQ.VJ3TdAF8N-vRv5-1cfqwtwzS10hJlQ7ZsQQha7XsENPBR9Re3Vq-rlZeE0OV1J8E1-T89--SqC32iK_wHU9Pbg"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ai/select/mistral",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ai",
+						"select",
+						"mistral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/ai/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/Users/shashikanth/Downloads/shashikanthResume.pdf",
+								"/Users/shashikanth/Downloads/newCTC.pdf"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ai/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ai",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/v1/ai/summary/30",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/ai/summary/30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ai",
+						"summary",
+						"30"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
