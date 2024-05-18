@@ -1,4 +1,4 @@
-# (Refy Technical take-home assignment)  task: discription 
+# [Refy Technical take-home assignment]  task: discription 
 ```
 Task: Wrapper service of LLM's using which user can query any given LLM
 
