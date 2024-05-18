@@ -16,11 +16,11 @@ POST API: resetCriteria(["DoB"]). Remove the criteria.
 ```
 
  #                                                                                          Documentation
-<img width="100" alt="Screenshot 2024-05-18 at 5 49 38 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/2e2b7073-c736-41f9-9255-26cd8e50c4a4">
-<img width="100" alt="Screenshot 2024-05-18 at 5 49 19 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/48fa1a1b-e8aa-4c27-8f80-420dd95c9fd4">
-<img width="100" alt="Screenshot 2024-05-18 at 5 49 11 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/12d012f4-681e-4e22-b1fd-4d9a6f9580fb">
-<img width="100" alt="Screenshot 2024-05-18 at 5 48 56 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/65987a87-4765-4146-9130-84f209b81962">
-<img width="100" alt="Screenshot 2024-05-18 at 4 47 54 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/a493dade-857b-4cf5-83fc-4ed54781290c">
+<img width="300" alt="Screenshot 2024-05-18 at 5 49 38 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/2e2b7073-c736-41f9-9255-26cd8e50c4a4">
+<img width="300" alt="Screenshot 2024-05-18 at 5 49 19 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/48fa1a1b-e8aa-4c27-8f80-420dd95c9fd4">
+<img width="300" alt="Screenshot 2024-05-18 at 5 49 11 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/12d012f4-681e-4e22-b1fd-4d9a6f9580fb">
+<img width="300" alt="Screenshot 2024-05-18 at 5 48 56 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/65987a87-4765-4146-9130-84f209b81962">
+<img width="300" alt="Screenshot 2024-05-18 at 4 47 54 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/a493dade-857b-4cf5-83fc-4ed54781290c">
 
 
 
