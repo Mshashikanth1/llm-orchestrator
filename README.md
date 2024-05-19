@@ -13,7 +13,20 @@ GET API - getSummary(wordCount). Selected LLM will return the summary of the upl
 POST API: setCriteria(["DoB"]), all the queries must return DoB if exist in document else NA.
 
 POST API: resetCriteria(["DoB"]). Remove the criteria.
+
 ```
+
+# Deployment process
+Cloud Trigger Activation: The Cloud Trigger detects the commit and activates Cloud Build.
+Build Process: Cloud Build executes the build steps defined in cloudbuild.yaml, builds the container image, and pushes it to the Container Registry.
+Deployment to Cloud Run: The built container image is deployed to Cloud Run.
+Configuration: Additional configurations like load balancer, VPC, and custom domain are set up if required.
+Service Availability: The application is now live and accessible via the configured domain, with automatic scaling and managed infrastructure provided by GCP.
+
+![deployment drawio](https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/e936088b-224c-4723-8498-0cd068d7dff8)
+
+
+
 
  #                                                                                          Documentation
 <img width="300" alt="Screenshot 2024-05-18 at 5 49 38 PM" src="https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/2e2b7073-c736-41f9-9255-26cd8e50c4a4">
@@ -73,14 +86,6 @@ method -3 : run main function directly from intellij
 
 
 ```
-# Deployment process
-Cloud Trigger Activation: The Cloud Trigger detects the commit and activates Cloud Build.
-Build Process: Cloud Build executes the build steps defined in cloudbuild.yaml, builds the container image, and pushes it to the Container Registry.
-Deployment to Cloud Run: The built container image is deployed to Cloud Run.
-Configuration: Additional configurations like load balancer, VPC, and custom domain are set up if required.
-Service Availability: The application is now live and accessible via the configured domain, with automatic scaling and managed infrastructure provided by GCP.
-
-![deployment drawio](https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/e936088b-224c-4723-8498-0cd068d7dff8)
 
  
 
