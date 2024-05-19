@@ -73,7 +73,16 @@ method -3 : run main function directly from intellij
 
 
 ```
+# Deployment process
+Cloud Trigger Activation: The Cloud Trigger detects the commit and activates Cloud Build.
+Build Process: Cloud Build executes the build steps defined in cloudbuild.yaml, builds the container image, and pushes it to the Container Registry.
+Deployment to Cloud Run: The built container image is deployed to Cloud Run.
+Configuration: Additional configurations like load balancer, VPC, and custom domain are set up if required.
+Service Availability: The application is now live and accessible via the configured domain, with automatic scaling and managed infrastructure provided by GCP.
 
+![deployment drawio](https://github.com/Mshashikanth1/llm-orchestrator/assets/57630057/e936088b-224c-4723-8498-0cd068d7dff8)
+
+ 
 
 # API Doc
 
